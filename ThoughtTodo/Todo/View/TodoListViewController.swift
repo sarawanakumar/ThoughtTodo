@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CoreLocation
 
 protocol TodoListView: AnyObject {
     func updateView(viewModel: [TodoViewModel])
